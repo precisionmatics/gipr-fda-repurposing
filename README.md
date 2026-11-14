@@ -111,7 +111,7 @@ A conda environment file (`environment.yml`) with pinned versions is provided in
 
 ## Data Availability
 
-Trajectory files, topology files, and supplementary data are deposited at Zenodo (DOI: *to be added upon publication*).
+Trajectory files, topology files, and supplementary data are deposited at Zenodo: https://doi.org/10.5281/zenodo.24214711
 
 Supplementary screening tables (Tables S1–S5) accompany the manuscript.
 
