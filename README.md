@@ -1,11 +1,5 @@
 # GIPR FDA Drug Repurposing — Computational Pipeline
 
-**Manuscript:** "Computational Repurposing of FDA-Approved Drugs Against the Glucose-Dependent Insulinotropic Polypeptide Receptor (GIPR): A Multi-Stage Virtual Screening, Molecular Dynamics, and Binding Free Energy Study"  
-**Journal:** AICHEM-D-26-00116  
-**Author:** Stalin Arulsamy
-
----
-
 ## Overview
 
 End-to-end computational pipeline screening 1,123 FDA-approved compounds (Enamine library) against GIPR (PDB: 8WA3, peptide-free Gα_s-coupled active state). Four consensus hits — Lurasidone, Montelukast, Risperidone, and Atovaquone — were identified and characterised through seven independent metrics.
@@ -120,14 +114,6 @@ A conda environment file (`environment.yml`) with pinned versions is provided in
 Trajectory files, topology files, and supplementary data are deposited at Zenodo (DOI: *to be added upon publication*).
 
 Supplementary screening tables (Tables S1–S5) accompany the manuscript.
-
----
-
-## Citation
-
-If you use this code, please cite:
-
-> Arulsamy S. Computational Repurposing of FDA-Approved Drugs Against GIPR. *AICHEM* (2026). AICHEM-D-26-00116.
 
 ---
 
