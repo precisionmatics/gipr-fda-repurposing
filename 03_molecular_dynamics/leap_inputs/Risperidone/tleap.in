@@ -1,0 +1,12 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+source leaprc.water.tip3p
+LIG  = loadmol2 /home/stalin/Downloads/Enamine/GIPR/FDA/md/production/Risperidone/ligand.mol2
+loadamberparams /home/stalin/Downloads/Enamine/GIPR/FDA/md/production/Risperidone/ligand.frcmod
+PROT = loadpdb /home/stalin/Downloads/Enamine/GIPR/FDA/md/production/Risperidone/protein_fixed.pdb
+SYS  = combine {PROT LIG}
+solvatebox SYS TIP3PBOX 10.0
+addions SYS Na+ 0
+addions SYS Cl- 0
+saveamberparm SYS /home/stalin/Downloads/Enamine/GIPR/FDA/md/production/Risperidone/complex.prmtop /home/stalin/Downloads/Enamine/GIPR/FDA/md/production/Risperidone/complex.inpcrd
+quit

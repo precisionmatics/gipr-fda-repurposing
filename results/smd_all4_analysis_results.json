@@ -1,0 +1,91 @@
+{
+  "top_compound": "Montelukast",
+  "final_ranking": [
+    "Montelukast",
+    "Lurasidone",
+    "Risperidone",
+    "Atovaquone"
+  ],
+  "combined_scores": {
+    "Montelukast": 1.8,
+    "Lurasidone": 2.0,
+    "Risperidone": 2.8,
+    "Atovaquone": 3.4
+  },
+  "smd_results": {
+    "Montelukast": {
+      "mean_pN": 342.9551549939076,
+      "std_pN": 33.121651409219254,
+      "per_rep_pN": [
+        340.2882841900575,
+        318.7507867020728,
+        326.15050242054355,
+        329.02283790411605,
+        400.5633637527483
+      ]
+    },
+    "Lurasidone": {
+      "mean_pN": 347.3782499940352,
+      "std_pN": 8.577013623168348,
+      "per_rep_pN": [
+        355.73700078271605,
+        345.8328736841507,
+        340.91773640910816,
+        337.7096317883328,
+        356.6940073058682
+      ]
+    },
+    "Risperidone": {
+      "mean_pN": 348.632295007023,
+      "std_pN": 35.84872865529335,
+      "per_rep_pN": [
+        362.3632375769613,
+        314.7638845988672,
+        308.48795185764385,
+        365.0545868226481,
+        392.49181417899445
+      ]
+    },
+    "Atovaquone": {
+      "mean_pN": 352.78519990204796,
+      "std_pN": 43.05770065183704,
+      "per_rep_pN": [
+        367.6985927530978,
+        318.4273568695072,
+        348.720098533678,
+        311.06046034006886,
+        418.01949101388783
+      ]
+    }
+  },
+  "metric_ranks": {
+    "Montelukast": {
+      "scons": 1,
+      "ic50": 2,
+      "dock": 1,
+      "smd": 4,
+      "conf": 1
+    },
+    "Lurasidone": {
+      "scons": 2,
+      "ic50": 1,
+      "dock": 2,
+      "smd": 3,
+      "conf": 2
+    },
+    "Risperidone": {
+      "scons": 3,
+      "ic50": 3,
+      "dock": 3,
+      "smd": 2,
+      "conf": 3
+    },
+    "Atovaquone": {
+      "scons": 4,
+      "ic50": 4,
+      "dock": 4,
+      "smd": 1,
+      "conf": 4
+    }
+  }
+}

@@ -1,0 +1,8 @@
+Per-frame MM-PBSA: PB implicit solvent, salt=0.15 M, skip 10 ns equilibration
+&general
+  startframe=1001, endframe=10000, interval=10,
+  verbose=2, keep_files=0,
+/
+&pb
+  istrng=150, radiopt=0, inp=2,
+/
